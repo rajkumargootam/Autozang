@@ -37,3 +37,38 @@ body{
     opacity: 0.4;
     z-index: 1;
 }
+
+.brktext{
+	  height:60px;
+    border-left: 4px solid #FBAF1A;
+}
+
+#crds-section {
+  padding: 60px 0 60px 0;
+}
+
+.div-shapes{
+	position:relative;
+	max-width:600px;
+	height: auto;
+	border: 1px solid rgba(0,0,0,.125);
+	margin:100px auto;
+	padding:12px;
+	boxsizing:border-box;
+}
+
+.div-shapes:after{
+	position: absolute;
+	width:30px;
+	height:30px;
+	border-top: 0px solid #000 !important;
+	border-left: 0px solid #000 !important;
+	border: 1px solid rgba(0,0,0,.125);
+	top:100%;
+	left:75%;
+	margin-left:-25;
+	content:' ';
+	transform: rotate(45deg);
+	margin-top:-15px;
+	background: #FFF;
+}
