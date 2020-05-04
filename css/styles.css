@@ -217,3 +217,26 @@ body{
     text-align: center;
   }
 }
+
+
+/*------------ Banner-2 -----------*/
+
+#banner-2{
+  position: relative;
+  height:40vh;
+	background-image: url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	/*background-size: cover;
+	background-position: center center;*/
+	/* padding: 90px 0 0 0;*/
+ }
+
+ #banner-2 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: 1;
+}
