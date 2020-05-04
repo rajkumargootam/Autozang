@@ -11,3 +11,29 @@ body{
   height:90px;
   max-width:100%;
 }
+
+/*------- banner -----*/
+
+#banner {
+    position: relative;
+    background-color: black;
+    height: 80vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+  	background-image: url("../img/banner-top.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center center;
+}
+
+#banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: 1;
+}
