@@ -1,0 +1,13 @@
+body{
+ margin: 0px;
+  padding: 0px;
+}
+
+.imglogo{
+  border-bottom: 1px solid #FBAF1A;
+}
+.imglogo img{
+  width=150px;
+  height:90px;
+  max-width:100%;
+}
