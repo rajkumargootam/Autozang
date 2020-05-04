@@ -72,3 +72,58 @@ body{
 	margin-top:-15px;
 	background: #FFF;
 }
+
+/*---------wizard and farm section----------*/
+
+.rgwizard-step p {
+    margin-top: 10px;
+}
+
+.rgwizard-row {
+    display: table-row;
+}
+
+.rgwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.rgwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.rgwizard-row:before {
+    top: 12px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 70%;
+    height: 8px;
+    background-color: #ccc;
+    z-order: 0;
+    margin-left: 10%;
+}
+.rgwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+
+.wizard-btn{
+	    color: #000;
+    background-color: #FBAF1A;
+    border-color: #FBAF1A;
+}
