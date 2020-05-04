@@ -133,6 +133,10 @@ body{
 	    border-radius: 1.25rem;
 }
 
+.light{
+  background-color: #FBAF1A;
+}
+
 /*----------- Services Section --------------*/
 #services {
   padding: 90px 0 0 0;
@@ -239,4 +243,104 @@ body{
     width: 100%;
     opacity: 0.4;
     z-index: 1;
+}
+
+
+/*---------footer----------*/
+
+#footer {
+    background: #222222;
+    border-top: 4px solid #253055;
+    font-size: 0.9em;
+    /*margin-top: 50px; */
+    padding: 70px 0 0;
+    position: relative;
+    clear: both;
+}
+
+
+/*--------social media icons -----*/
+
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.list-inline>li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width:40px;
+    height:40px;
+    font-size: 20px;
+}
+
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.list-inline>li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width:40px;
+    height:40px;
+    font-size: 20px;
+}
+
+.list-inline>li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.list-inline li i {
+    margin: 0;
+    line-height:40px;
+    text-align: center;
+}
+
+.list-inline .social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.list-inline a {
+	color:#fff;
+    background-color:#818182;
 }
