@@ -127,3 +127,8 @@ body{
     background-color: #FBAF1A;
     border-color: #FBAF1A;
 }
+
+
+.form-control{
+	    border-radius: 1.25rem;
+}
