@@ -112,25 +112,25 @@ body{
 }
 
 @media (max-width: 360px) {
-	.text-size	{
-		font-size: 8px !important;
-	}
+  	.text-size	{
+  		font-size: 8px !important;
+  	}
 
 	.dashbord{
-	width:26%;
-	display: inline-block;
-	background-color:#FFF;
-	color:#000;
-	margin-top: 50px;
-	margin-bottom: 35px;
-	position:relative;
-	border: 1px solid rgba(0,0,0,.125);
-	/*margin-right:1em;*/
-	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-	margin-left: 1.2em;
-}
+  	width:26%;
+  	display: inline-block;
+  	background-color:#FFF;
+  	color:#000;
+  	margin-top: 50px;
+  	margin-bottom: 35px;
+  	position:relative;
+  	border: 1px solid rgba(0,0,0,.125);
+  	/*margin-right:1em;*/
+  	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  	margin-left: 1.2em;
+  }
 
-  .dashbord:after {
+  .dashbord::after {
     position: absolute;
     width: 15px !important;
     height: 15px!important;
@@ -151,8 +151,8 @@ body{
 	}
 
 	.rg-adjust{
-	right: -2em;
-}
+	  right: -2em;
+  }
 }
 
 .rgwizard-step p {
@@ -183,11 +183,11 @@ body{
     bottom: 0;
     position: absolute;
     content: " ";
-    width: 70%;
+    width: 77%;
     height: 8px;
-    background-color: #ccc;
+    background-color: #000;
     z-order: 0;
-    margin-left: 10%;
+    margin-left: 9%;
 }
 .rgwizard-step {
     display: table-cell;
