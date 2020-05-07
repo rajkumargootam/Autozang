@@ -68,83 +68,98 @@
 
     <section id="rg-Wizard-process-bar">
       <div class="container">
-        <div class="dashbord">
-    			<p class="text-center text-size" style="margin-top: 15px;">Select your <br> <b>Bike Modal</b><br> &nbsp;</p>
-    		</div>
-    		<div class="dashbord dashbord-green">
-    			<p class="text-center text-size" style="margin-top: 15px;">Book the <br> <b>Service</b> <br>&nbsp;</p>
-    		</div>
-    		<div class="dashbord dashbord-orange">
-    			<p class="text-center text-size" style="margin-top: 15px;">Get the service<br> done with <br> <b>Free pickup & Drop</b>.</p>
-    		</div>
+				<div class="container2">
+					<p style="padding-left: 6px;">SIMPLE &<br>
+					<span style="color:#000000;font-weight:bold; font-size: 24px; padding-left">easy to book</span>
+					</p>
+				</div>
 
-    		<div class="rgwizard">
-    			<div class="rgwizard-row text-white">
-    				<div class="rgwizard-step">
-    					<button type="button" class="btn wizard-btn  btn-circle">1</button>
-    					<p>Cart</p>
-    				</div>
-    				<div class="rgwizard-step">
-    					<button type="button" class="btn  wizard-btn btn-circle">2</button>
-    					<p>Shipping</p>
-    				</div>
-    				<div class="rgwizard-step">
-    					<button type="button" class="btn  wizard-btn btn-circle" disabled="disabled">3</button>
-    					<p>Payment</p>
-    				</div>
-    			</div>
-    		</div>
+		<div class="dashbord">
+			<p class="text-center text-size" style="margin-top: 15px;">Select your <br> <b>Bike Modal</b><br> &nbsp;</p>
+		</div>
+		<div class="dashbord dashbord-green">
+			<p class="text-center text-size" style="margin-top: 15px;">Book the <br> <b>Service</b> <br>&nbsp;</p>
+		</div>
+		<div class="dashbord dashbord-orange">
+			<p class="text-center text-size" style="margin-top: 15px;">Get the service<br> done with <br> <b>Free pickup & Drop</b>.</p>
+		</div>
+		<div class="rgwizard">
+			<div class="rgwizard-row text-white">
+				<div class="rgwizard-step">
+					<button type="button" class="btn wizard-btn  btn-circle">1</button>
+					<p>Cart</p>
+				</div>
+				<div class="rgwizard-step rg-adjust">
+					<button type="button" class="btn  wizard-btn btn-circle">2</button>
+					<p>Shipping</p>
+				</div>
+				<div class="rgwizard-step rg-adjust">
+					<button type="button" class="btn  wizard-btn btn-circle" disabled="disabled">3</button>
+					<p>Payment</p>
+				</div>
+			</div>
+		</div>
 
-    		<div class="card">
-    			<div class="card-body">
-    				<div class="row">
-    					<div class="col-md-6 text-center">
-    						<button type="button" class="btn btn-primary btn-lg btn-block">ROYAL BIKE SERVICE <br/> 1599/-</button>
-    						<br/>
-    						<img src="img/Classic-Signals-Green-3-4-Front.png" class="img-thumbnail" alt="..." style="border:none;"/>
-    					</div>
-    					<div class="col-md-6 text-center">
-    						<button type="button" class="btn btn-primary btn-lg btn-block">STANDARD BIKE SERVICE <br/> 999/-</button>
-    						<img src="img/5.png" class="img-thumbnail" alt="..." style="border:none;" />
-    					</div>
-    				</div>
-    				<br/>
-    				<form>
-    					<div class="form-row">
-    						<div class="form-group col-md-6">
-    							<input type="text" class="form-control" id="Name" placeholder="Enter Name">
-    						</div>
-    						<div class="form-group col-md-6">
-    							<input type="password" class="form-control" id="inputPassword4" placeholder="Mobile Number">
-    						</div>
-    					</div>
-    					<div class="form-row">
-    						<div class="form-group col-md-6">
-    							<select id="inputState" class="form-control">
-    								<option selected>Select Your Bike</option>
-    								<option>Pulse 150cc</option>
-    							</select>
-    						</div>
-    						<div class="form-group col-md-6">
-    							<select id="inputState" class="form-control">
-    								<option selected>Select Your Bike</option>
-    								<option>Pulse 150cc</option>
-    							</select>
-    						</div>
-    					</div>
-    					<div class="form-row">
-    						<div class="form-group col-md-6">
-    							<input type="email" class="form-control" id="Email" placeholder="Email Id">
-    						</div>
-    						<div class="form-group col-md-6">
-    							<input type="password" class="form-control" id="PromoCode" placeholder="Add Promo Code">
-    						</div>
-    					</div>
-    					<button type="button" class="btn  btn-lg btn-block" style="background-color:#fbaf1a; color:#FFF;">BOOK SERVICE NOW ></button>
-    				</form>
-    			</div>
-    		</div>
-    	</div>
+		<div class="card" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;">
+			<div class="card-body">
+				<div class="row">
+					<div class="col-6 col-sm-3 col-md-6 col-lg-6 text-center ">
+						<div id="royal" style="position: relative">
+							<button type="button" class="btn btn-lg btn-block royal-standard" style="background: #313A59;"><span style="color : #FBAF1A;">ROYAL BIKE SERVICE</span> <br/><span style="color : #FFF;"> 1599/- </span></button>
+							<div id="circle-ryl" style="position: absolute; margin-top: -18.3%; margin-left: -16px;">
+								<i class="fas fa-check" style="font-size: 1.5em;"></i>
+							</div>
+							<br/>
+							<img src="image/lib/Classic-Signals-Green-3-4-Front.png" class="img-thumbnail" alt="..." style="border:none;"/>
+						</div>
+					</div>
+					<div class="col-6 col-sm-3 col-md-6 col-lg-6 text-center">
+						<div id="standard-bike" style="position: relative">
+							<button type="button" class="btn  btn-lg btn-block royal-standard disabled">STANDARD BIKE SERVICE <br/> 999/-</button>
+							<div id="circle-std" style="position: absolute; margin-top: -18.3%; margin-left: -16px;">
+								<i class="fas fa-check" style="font-size: 1.5em; display: none;"></i>
+							</div>
+							<img src="image/lib/5.png" class="img-thumbnail" alt="..." style="border:none; margin-top: 2em;" />
+						</div>
+					</div>
+				</div>
+				<br/>
+				<form>
+					<div class="form-row">
+						<div class="form-group col-6 col-sm-3 col-md-6 col-lg-6">
+							<input type="text" class="form-control" id="Name" placeholder="Enter Name">
+						</div>
+						<div class="form-group col-6 col-sm-3 col-md-6 col-lg-6">
+							<input type="password" class="form-control" id="inputPassword4" placeholder="Mobile Number">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-6 col-sm-3 col-md-6 col-lg-6">
+							<select id="inputState" class="form-control">
+								<option selected>Select Your Bike</option>
+								<option>Pulse 150cc</option>
+							</select>
+						</div>
+						<div class="form-group col-6 col-sm-3 col-md-6 col-lg-6">
+							<select id="inputState" class="form-control">
+								<option selected>Select Your Bike</option>
+								<option>Pulse 150cc</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-6 col-sm-3 col-md-6 col-lg-6">
+							<input type="email" class="form-control" id="Email" placeholder="Email Id">
+						</div>
+						<div class="form-group col-6 col-sm-3 col-md-6 col-lg-6">
+							<input type="password" class="form-control" id="PromoCode" placeholder="Add Promo Code">
+						</div>
+					</div>
+					<button type="button" class="btn  btn-lg btn-block" style="background-color:#fbaf1a; color:#FFF;">BOOK SERVICE NOW ></button>
+				</form>
+			</div>
+		</div>
+	</div>
     </section>
 
     <section id="services">

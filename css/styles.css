@@ -221,6 +221,19 @@ body{
   background-color: #FBAF1A;
 }
 
+
+.fa-check {
+    padding: 15px;
+    font-size: 30px;
+    width: 2em;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+	color:#FFF;
+    background: #FBAF1A;
+}
+
 /*----------- Services Section --------------*/
 #services {
   padding: 90px 0 0 0;
