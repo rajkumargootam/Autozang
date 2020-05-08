@@ -75,6 +75,13 @@ body{
 
 /*---------wizard and farm section----------*/
 
+
+.container2{
+  height: 60px;
+  border-left: 4px solid #FBAF1A;
+}
+
+
 .dashbord{
 	width:30%;
 	display: inline-block;
@@ -90,7 +97,7 @@ body{
 }
 
 
-.dashbord:after{
+.dashbord::after{
 	position: absolute;
 	width:30px;
 	height:30px;
