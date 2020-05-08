@@ -157,12 +157,18 @@ margin-left: 1.2em;
 }
 
 .rgwizard {
-right:0em !important;
+  right:0em !important;
 }
 
 .rg-adjust{
-right: -2em !important;
+  right: -2em !important;
 }
+}
+
+@media (max-width: 768px) {
+  .rg-adjust{
+    right: -3em !important;
+  }
 }
 
 .rgwizard-step p {
