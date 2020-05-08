@@ -124,7 +124,7 @@ body{
      height: 100px;
      width: 110px;
   }
-  }
+
 
   img.img-thumbnail.standard-bike-img{
     height: 100px;
@@ -151,12 +151,10 @@ body{
 
 }
 
-
-.container2{
+.vertical-line{
   height: 60px;
   border-left: 4px solid #FBAF1A;
 }
-
 
 .dashbord{
 width: 30%;
