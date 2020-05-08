@@ -157,7 +157,14 @@ body{
 /* CSS */
 
   .dashbord {
-    width: 29%;
+    width: 29% !important;
+  }
+
+  .dashbord:after {
+    width: 25px;
+    height: 25px;
+    left: 70%;
+    margin-top: -12px;
   }
 
   p.text-center.text-size {
@@ -165,7 +172,11 @@ body{
   }
 
   .rgwizard {
-    right: -2em;
+    right: -1.8em;
+  }
+
+  .rgwizard-row:before{
+    margin-left: 10%;
   }
 
   .royal-standard{
@@ -173,7 +184,7 @@ body{
   }
 
   div#circle-ryl{
-    margin-top: -33.3%;
+    margin-top: -33.3% !important;
   }
   i.fas.fa-check{
     padding: 8px;
