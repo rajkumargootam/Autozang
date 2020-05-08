@@ -152,6 +152,59 @@ body{
 }
 
 
+@media (max-width: 360px) {
+.text-size	{
+font-size: 8px !important;
+}
+.royal-standard{
+  font-size: 8px !important;
+}
+.dashbord{
+width:26%;
+display: inline-block;
+background-color:#FFF;
+color:#000;
+margin-top: 50px;
+margin-bottom: 35px;
+position:relative;
+border: 1px solid rgba(0,0,0,.125);
+/*margin-right:1em;*/
+box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+margin-left: 1.2em;
+}
+
+ .dashbord:after {
+   position: absolute;
+   width: 15px !important;
+   height: 15px!important;
+   border-top: 0px solid #000 !important;
+   border-left: 0px solid #000 !important;
+   border: 1px solid rgba(0,0,0,.125);
+   top: 100%;
+   left: 70% !important;
+   /*margin-left: -25;*/
+   content: ' ';
+   transform: rotate(45deg);
+   margin-top: -10px !important;
+   background: #FFF;
+}
+
+.rgwizard {
+  right:0em !important;
+}
+
+.rg-adjust{
+  right: -2em !important;
+}
+}
+
+@media (max-width: 768px) {
+  .rg-adjust{
+    right: -3em !important;
+  }
+}
+
+
 .vertical-line{
   height: 60px;
   border-left: 4px solid #FBAF1A;
