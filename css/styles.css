@@ -75,6 +75,50 @@ body{
 
 /*---------wizard and farm section----------*/
 
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+  /* CSS */
+  .dashbord {
+    width: 25.5%;
+    margin-left: 1em;
+  }
+
+  .dashbord:after {
+    width: 10px !important;
+    height: 10px!important;
+    left: 70% !important;
+    margin-top: -5px !important;
+  }
+
+  p.text-center.text-size{
+     font-size: 7px;
+  }
+
+  .rgwizard-step.rg-adjust{
+    right:0em !important;
+  }
+
+
+  div#circle-ryl {
+    margin-top: -50.3%;
+    margin-left: -16px;
+  }
+
+  img.img-thumbnail.royal-img{
+     height: 100px;
+     width: 110px;
+  }
+  }
+
+  img.img-thumbnail.standard-bike-img{
+    height: 100px;
+    width: 86px;
+  }
+
+  button.btn.btn-lg.btn-block{
+     font-size: 12px;
+  }
+}
+
 
 .container2{
   height: 60px;
