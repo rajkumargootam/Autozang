@@ -107,27 +107,30 @@
 
 		<div class="card" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;">
 			<div class="card-body">
-				<div class="row">
-					<div class="col-6 col-sm-3 col-md-6 col-lg-6 text-center ">
-						<div id="royal" style="position: relative">
-							<button type="button" class="btn btn-lg btn-block royal-standard" style="background: #313A59;"><span style="color : #FBAF1A;">ROYAL BIKE SERVICE</span> <br/><span style="color : #FFF;"> 1599/- </span></button>
-							<div id="circle-ryl" style="position: absolute; margin-top: -18.3%; margin-left: -16px;">
-								<i class="fas fa-check" style="font-size: 1.5em;"></i>
-							</div>
-							<br/>
-							<img src="img/Classic-Signals-Green-3-4-Front.png" class="img-thumbnail" alt="..." style="border:none;"/>
-						</div>
-					</div>
-					<div class="col-6 col-sm-3 col-md-6 col-lg-6 text-center">
-						<div id="standard-bike" style="position: relative">
-							<button type="button" class="btn  btn-lg btn-block royal-standard disabled">STANDARD BIKE SERVICE <br/> 999/-</button>
-							<div id="circle-std" style="position: absolute; margin-top: -18.3%; margin-left: -16px;">
-								<i class="fas fa-check" style="font-size: 1.5em; display: none;"></i>
-							</div>
-							<img src="img/5.png" class="img-thumbnail" alt="..." style="border:none; margin-top: 2em;" />
-						</div>
-					</div>
-				</div>
+        <div class="row">
+          <div class="col-6 col-sm-3 col-md-6 col-lg-6 text-center ">
+            <div style="position: relative">
+              <button type="button" class="btn btn-lg btn-block royal-standard active" id="royal" >
+                <i class="fas fa-check" style="font-size: 1.2em;position: absolute;top: -7%;left: -3%;"></i>
+                <span class="serviceType">ROYAL BIKE SERVICE</span>
+                <br/>
+                <span class="servicePrice" > 1599/- </span>
+              </button>
+              <br/>
+              <img src="img/Classic-Signals-Green-3-4-Front.png" class="img-thumbnail" alt="..." style="border:none;"/>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-6 col-lg-6 text-center">
+            <div  style="position: relative">
+              <button type="button" class="btn  btn-lg btn-block royal-standard" id="standard">
+                <i class="fas fa-check" style="font-size: 1.2em;position: absolute;top: -7%;left: -3%;"></i>
+                <span class="serviceType"> STANDARD BIKE SERVICE </span><br/>
+                <span class="servicePrice" > 999/- </span>
+              </button>
+              <img src="img/5.png" class="img-thumbnail" alt="..." style="border:none; margin-top: 2em;" />
+            </div>
+          </div>
+        </div>
 				<br/>
 				<form>
 					<div class="form-row">
@@ -331,6 +334,23 @@
 
     <script>
       new WOW().init();
+    </script>
+    <script type="text/javascript">
+      $('#standard i').hide();
+      $('#royal i').show();
+     $('button.royal-standard').on('click', function(){
+      if($(this).attr('id') == 'royal'){
+        $('#standard i').hide();
+        $('#standard').removeClass('active');
+        $('#royal').addClass('active');
+        $('#royal i').show();
+      }else{
+        $('#royal i').hide();
+        $('#royal').removeClass('active');
+        $('#standard i').show();
+        $('#standard').addClass('active');
+      }
+     });
     </script>
 
   </body>

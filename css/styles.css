@@ -400,17 +400,20 @@ padding: 60px 0px;
   background-color: #FBAF1A;
 }
 
+button.royal-standard.active{ background: #313A59;}
+button.royal-standard.active span.serviceType{ color: #FBAF1A;}
+button.royal-standard.active span.servicePrice{ color : #FFF;}
 
 .fa-check {
-    padding: 15px;
-    font-size: 30px;
-    width: 2em;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-	color:#FFF;
-    background: #FBAF1A;
+   padding: 13px;
+   font-size: 30px;
+   width: 2em;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+   border-radius: 50%;
+color:#FFF;
+   background: #FBAF1A;
 }
 
 
