@@ -12,6 +12,85 @@ body{
   max-width:100%;
 }
 
+/* Landing-page
+------------------------------*/
+
+#landing-page{
+		background-image: url("../img/banner-top.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		color: #FFF;
+
+}
+
+  .demo-problem, .demo-solution {
+    font-size: 3em;
+  }
+
+  .demo-solution--flexbox {
+    display: flex;
+    align-items: center;
+    margin:auto;
+    img {
+      margin: 10px;
+      padding: 10px;
+      transition: margin 300ms;
+    }
+  }
+	p.para-text{
+		font-size: 13px;
+		text-align: center;
+		    margin: 2px 8px;
+			width: 135px;
+	}
+	.img-icon-rg{
+		margin-left: 60px;
+		margin-bottom: 26px;
+		margin-right: 20px;
+	}
+
+	.header2-text{
+		font-size: 3.8rem;
+	}
+	.header1-text{
+		font-weight: 700;
+		font-size: 4.5rem;
+	}
+
+
+	#parallelogram {
+		position:relative;
+		width: 463px;
+		height: 36px;
+		transform: skew(-20deg);
+		background: #FBAF1A;
+		margin-left: 23%;
+	}
+	#parallelogram .para-landing-page{
+		font-size: 1.5rem;
+		color: #000;
+	}
+
+	#scnd-parallelogram {
+		position:absolute;
+		width: 205px;
+		height: 44px;
+		transform: skew(-20deg);
+		background: #0652DD;
+		margin-left: 45.3%;
+		margin-top: -41px;
+	}
+
+
+	#scnd-parallelogram .scnd-para-text{
+		font-size: 1.5rem;
+	}
+
+  .prnt-box{
+    margin-top: 38px;
+  }
+
 /*------- banner -----*/
 
 #banner {
