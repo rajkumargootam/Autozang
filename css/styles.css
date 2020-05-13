@@ -7,6 +7,7 @@ body{
   border-bottom: 1px solid #FBAF1A;
 }
 .imglogo img{
+  width:0px;
   height:90px;
   max-width:100%;
 }
