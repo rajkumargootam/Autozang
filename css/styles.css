@@ -1631,3 +1631,33 @@ width: 25%;
     margin-top: -41px;
 }
 }
+
+
+/*--------oneplus5t-----*/
+@media only screen and (min-device-width: 1080px){
+/* Styles */
+
+#parallelogram {
+position: relative;
+width: 375px;
+height: 32px;
+transform: skew(-20deg);
+background: #FBAF1A;
+margin-left: 17%;
+}
+
+#parallelogram .para-landing-page {
+font-size: 1.3rem;
+color: #000;
+}
+
+#scnd-parallelogram {
+position: absolute;
+width: 205px;
+height: 44px;
+transform: skew(-20deg);
+background: #0652DD;
+margin-left: 49.3%;
+margin-top: -39px;
+}
+}
