@@ -7,7 +7,7 @@ body{
   border-bottom: 1px solid #FBAF1A;
 }
 .imglogo img{
-  width=150px;
+  width:50px;
   height:90px;
   max-width:100%;
 }
@@ -151,302 +151,6 @@ body{
 	margin-top:-15px;
 	background: #FFF;
 }
-
-/*---------wizard and farm section----------*/
-
-@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
-  /* CSS */
-  .dashbord {
-    width: 25.5% !important;
-    margin-left: 1em !important;
-  }
-
-  .dashbord:after {
-    width: 10px !important;
-    height: 10px!important;
-    left: 70% !important;
-    margin-top: -5px !important;
-  }
-
-  .fas.fa-check{
-    padding: 4px;
-    width:26px;
-    font-size: 1em;
-  }
-  .rgwizard {
-    right:0em !important;
-  }
-
-  .rgwizard-row::before{
-    width: 70%;
-    margin-left: 12%;
-  }
-
-  p.text-center.text-size{
-     font-size: 7px;
-  }
-
-  .rgwizard-step.rg-adjust{
-    right:-1em !important;
-  }
-
-
-  div#circle-ryl {
-    margin-top: -50.3% !important;
-    margin-left: -16px !important;
-  }
-  button.btn.btn-lg.btn-block.royal-standard{
-    font-size: 6px;
-  }
-
-  img.img-thumbnail.royal-img{
-     height: 100px;
-     width: 110px;
-  }
-
-
-  img.img-thumbnail.standard-bike-img{
-    height: 100px;
-    width: 86px;
-  }
-
-  button.btn.btn-lg.btn-block{
-     font-size: 12px;
-  }
-
-  .looking-text {
-      font-size: 1rem!important;
-      color: #FFF !important;
-  }
-
-  .service-pkg-text{
-    font-size: .9rem !important;
-    color: #FFF !important;
-  }
-
-  .banner-2-header {
-      font-size: 1.5rem !important;
-  }
-
-}
-
-
-@media screen
-  and (max-width: 360px) {
-  .text-size	{
-  font-size: 8px;
-  }
-  .royal-standard{
-    font-size: 8px;
-  }
-  .dashbord{
-  width:26%;
-  display: inline-block;
-  background-color:#FFF;
-  color:#000;
-  margin-top: 50px;
-  margin-bottom: 35px;
-  position:relative;
-  border: 1px solid rgba(0,0,0,.125);
-  /*margin-right:1em;*/
-  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-  margin-left: 1.2em;
-  }
-
- .dashbord:after {
-   position: absolute;
-   width: 15px !important;
-   height: 15px!important;
-   border-top: 0px solid #000 !important;
-   border-left: 0px solid #000 !important;
-   border: 1px solid rgba(0,0,0,.125);
-   top: 100%;
-   left: 70% !important;
-   /*margin-left: -25;*/
-   content: ' ';
-   transform: rotate(45deg);
-   margin-top: -10px !important;
-   background: #FFF;
-}
-
-.rgwizard {
-  right:0em;
-}
-
-.rgwizard-step.rg-adjust{
-  right: -2em;
-}
-
-.header2-text {
-font-size: 1rem;
-}
-
-.header1-text {
-font-size: 1.4rem;
-}
-
-#parallelogram {
-width: 215px;
-height: 20px;
-margin-left: 0%;
-}
-#parallelogram .para-landing-page {
-font-size: .7rem;
-}
-#scnd-parallelogram {
-width: 112px;
-height: 29px;
-margin-left: 59.3%;
-margin-top: -25px;
-}
-#scnd-parallelogram .scnd-para-text {
-font-size: .8rem;
-}
-
-img.img-icon-rg{
-width: 35px;
-height: 35px;
-margin: 0px;
-}
-
-p.para-text-land {
-    font-size: 8px;
-}
-
-}
-
-@media screen and (min-width: 360px) and (max-width: 640px) {
-  #parallelogram {
-    width: 215px !important;
-    height: 20px;
-    margin-left: 0%;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width:480px) {
-/* ADD YOUR CSS ADJUSTMENTS BELOW HERE */
-  #parallelogram {
-    width: 188px;
-    height: 15px;
-    margin-left: 0;
-  }
-
-  #parallelogram .para-landing-page {
-    font-size: .6rem;
-  }
-
-  #scnd-parallelogram {
-    width: 112px;
-    height: 24px;
-    margin-left: 58.3%;
-    margin-top: -20px;
-  }
-
-  #scnd-parallelogram .scnd-para-text {
-    font-size: .8rem;
-  }
-
-  p.text-center.text-size {
-    font-size: 7px;
-  }
-  .fas.fa-check {
-    padding: 4px !important;
-    font-size: 10px !important;
-    position: absolute;
-    top: -7%;
-    left: -8%;
-    width: 16px;
-  }
-  .dashbord::after {
-    margin-top: -7px !important;
-    margin-left: -5px;
-  }
-  .serviceType{
-    font-size: 6px;
-  }
-
-  img.img-thumbnail.standard-bike-img{
-    height: 60px;
-    width: 60px;
-    border:none;
-    margin-top: 2em;
-  }
-
-  .form-control{
-    font-size: .8em;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .header2-text {
-        font-size: 2.8rem;
-    }
-
-    .header1-text {
-      font-size: 3.5rem;
-    }
-
-    #parallelogram {
-      width: 308px;
-      height: 26px;
-      margin-left: 17%;
-    }
-
-    #parallelogram .para-landing-page {
-      font-size: 1rem;
-    }
-
-    #scnd-parallelogram {
-      width: 150px;
-      height: 34px;
-      margin-left: 55.3%;
-      margin-top: -31px;
-    }
-
-    #scnd-parallelogram .scnd-para-text {
-      font-size: 1rem;
-    }
-
-  .rgwizard-step.rg-adjust{
-    right: -3em;
-  }
-
-  img.img-thumbnail.standard-bike-img{
-    height: 160px;
-    width: 145px;
-  }
-  .fas.fa-check {
-    left: -5% !important;
-    padding: 10px !important;
-    font-size: 22px!important;
-  }
-
-}
-
-
-@media only screen and (min-width: 800px) and (max-width: 1280px) {
-  #scnd-parallelogram {
-    width: 205px;
-    height: 35px;
-    margin-left: 52.9%;
-  }
-  #scnd-parallelogram .scnd-para-text {
-      font-size: 1.5rem;
-  }
-}
-
-
-@media only screen and (min-width: 980px) and (max-width: 1280px) {
-  #parallelogram {
-      width: 318px;
-  }
-
-  #scnd-parallelogram {
-      margin-left: 43.9%;
-  }
-}
-
-
 
 
 img.img-thumbnail.standard-bike-img{
@@ -877,4 +581,1053 @@ button.royal-standard.active span.servicePrice{ color : #FFF;}
 .list-inline a {
 	color:#fff;
     background-color:#818182;
+}
+
+
+
+/*-------MEDIA QUREIES-------*/
+
+
+
+@media only screen and (max-width: 400px) {
+  p.text-center.text-size	{
+	font-size: 7px;
+  }
+  .royal-standard{
+    font-size: 8px;
+  }
+  .dashbord{
+width: 25%;
+    display: inline-block;
+    background-color: #FFF;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.125);
+    /* margin-right: 1em; */
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    margin-left: 1.2em;
+  }
+
+ .dashbord:after {
+    position: absolute;
+    width: 10px !important;
+    height: 10px!important;
+    border-top: 0px solid #000 !important;
+    border-left: 0px solid #000 !important;
+    border: 1px solid rgba(0,0,0,.125);
+    top: 100%;
+    left: 70% !important;
+    content: ' ';
+    transform: rotate(45deg);
+    margin-top: -4px !important;
+    background: #FFF;
+}
+
+
+	.rgwizard {
+	  right:0em;
+	}
+
+	.rgwizard-step.rg-adjust{
+	  right: -2em;
+	}
+
+	.header2-text {
+		font-size: 1rem;
+	}
+
+	.header1-text {
+		font-size: 1.4rem;
+	}
+
+	#parallelogram {
+		width: 180px;
+		height: 20px;
+		margin-left: 0%;
+	}
+	#parallelogram .para-landing-page {
+		font-size: .6rem !important;
+	}
+	#scnd-parallelogram {
+		width: 112px;
+		height: 29px;
+		margin-left: 55.3%;
+		margin-top: -25px;
+	}
+	#scnd-parallelogram .scnd-para-text {
+		font-size: .8rem;
+	}
+
+	img.img-icon-rg{
+		width: 35px;
+		height: 35px;
+		margin: 0px;
+	}
+
+	p.para-text-land {
+		font-size: 8px;
+	}
+	.fas.fa-check {
+		left: -6%;
+		padding: 4px;
+		font-size: 10px;
+	}
+	img.img-thumbnail.standard-bike-img{
+		height: 52px;
+		width: 62px;
+	}
+	span.serviceType{
+		font-size: 7px;
+	}
+	p.looking-text {
+		color: #FFF;
+	}
+	p.service-pkg-text{
+		color: #FFF;
+	}
+	.copy-right {
+		font-size: .5rem;
+	}
+}
+
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+
+
+	h2.header2-text.text-center {
+		font-size: 1.8rem;
+	}
+	h1.header1-text{
+			font-size: 2.5rem;
+	}
+
+	#parallelogram {
+		width: 200px;
+		height: 20px;
+		margin-left: 9%;
+	}
+	#parallelogram .para-landing-page {
+		font-size: 0.7rem;
+	}
+	#scnd-parallelogram {
+		width: 150px;
+		height: 30px;
+		margin-left: 50.3%;
+		margin-top: -26px;
+	}
+
+	#scnd-parallelogram .scnd-para-text {
+		font-size: 1rem;
+	}
+
+	.img-icon-rg {
+		margin-left: 0px;
+		margin-bottom: 26px;
+		margin-right: 20px;
+		width: 42px;
+		height: 42px;
+	}
+
+	.dashbord {
+		width: 28%;
+		margin-top: 50px;
+		margin-left: 1.2em;
+	}
+
+	p.text-center.text-size {
+		font-size: .8em;
+	}
+	.dashbord:after {
+		width: 15px;
+		height: 15px;
+		left: 70%;
+		margin-top: -8px;
+	}
+	span.serviceType{
+		font-size: 14px;
+	}
+	.fas.fa-check {
+		left: -8%;
+		padding: 7px;
+		font-size: 18px;
+	}
+	  img.img-thumbnail.standard-bike-img{
+		height: 100px;
+		width: 86px;
+	}
+	.rgwizard {
+		right: -2.2em;
+	}
+	.rgwizard-step.rg-adjust {
+		right: -1em;
+	}
+	.copy-right {
+		font-size: .6rem;
+	}
+}
+
+/* Samsung Galaxy S5 ----------- */
+/*@media only screen and (max-width: 360px) {*/
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.demo-solution.demo-solution--flexbox{
+		margin-left: 0px
+	}
+
+	h2.header2-text.text-center {
+		font-size: 1.2rem !important;
+	}
+
+	h1.header1-text {
+		font-size: 2rem !important;
+	}
+
+	landing-page {
+		font-size: 0.6rem;
+	}
+	#parallelogram {
+		width: 172px !important;
+		height: 16px !important;
+		margin-left: 4% !important;
+	}
+
+	#scnd-parallelogram {
+		width: 110px !important;
+		height: 26px !important;
+		margin-left: 51.3% !important;
+		margin-top: -22px !important;
+	}
+
+	.scnd-para-text {
+		font-size: .8rem !important;
+	}
+	img.img-icon-rg {
+		width: 30px;
+		height: 30px;
+		margin: 0px;
+	}
+	p.para-text-land {
+		font-size: 8px;
+	}
+
+	img.img-thumbnail.standard-bike-img {
+		height: 62px;
+		width: 62px;
+	}
+	span.serviceType{
+		font-size: 0.5rem !important;
+	}
+
+	.fas.fa-check {
+		left: -7%;
+		padding: 5px;
+		font-size: 12px;
+	}
+
+	p.text-center.text-size {
+		font-size: .5rem !important;
+	}
+
+	.dashbord {
+		width: 25% !important;
+	}
+
+
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+
+	h2.header2-text.text-center {
+		font-size: 1.5rem !important;
+	}
+	h1.header1-text{
+			font-size: 2.5rem !important;
+	}
+
+	#parallelogram {
+		width: 278px !important;
+		height: 25px !important;
+		margin-left: 8% !important;
+	}
+	#parallelogram .para-landing-page {
+		font-size: 0.9rem !important;
+	}
+	#scnd-parallelogram {
+		width: 165px !important;
+		height: 35px !important;
+		margin-left: 48.2% !important;
+		margin-top: -32px !important;
+	}
+
+	#scnd-parallelogram .scnd-para-text {
+		font-size: 1.2rem !important;
+	}
+	.img-icon-rg {
+		margin-left: 0px;
+		margin-bottom: 26px;
+		margin-right: 0px;
+		height: 40px !important;
+		width: 40px !important;
+	}
+	p.text-center.text-size	{
+		font-size: .8rem;
+	}
+	.dashbord {
+		width: 29% !important;
+	}
+	.dashbord:after {
+		width: 20px !important;
+		height: 20px !important;
+		margin-top: -10px !important;
+	}
+	.rgwizard-step.rg-adjust{
+		right: -2em !important;
+	}
+
+	span.serviceType{
+		font-size: 1rem !important;
+	}
+
+	img.img-thumbnail.standard-bike-img{
+		height: 110px !important;
+		width: 86px !important;
+	}
+
+	.fas.fa-check {
+		top: -7%;
+		left: -5 !important%;
+		padding: 6px !important;
+		font-size: 18px !important;
+	}
+
+	p.looking-text {
+		color: #FFF;
+	}
+	p.service-pkg-text{
+		color: #FFF;
+	}
+	.copy-right {
+		font-size: .8rem !important;
+	}
+
+}
+
+@media only screen and (max-width: 411px) {
+
+	h2.header2-text.text-center {
+		font-size: 1.2rem;
+	}
+	h1.header1-text{
+			font-size: 2rem;
+	}
+
+	#parallelogram {
+		width: 200px;
+		height: 18px;
+		margin-left: 12%;
+	}
+	#parallelogram .para-landing-page {
+		font-size: 0.7rem;
+	}
+
+	#scnd-parallelogram {
+		width: 125px;
+		height: 28px;
+		margin-left: 59.3%;
+		margin-top: -25px;
+	}
+
+	#scnd-parallelogram .scnd-para-text {
+		font-size: .9rem;
+	}
+	p.para-text-land {
+		font-size: 10px;
+	}
+
+	.img-icon-rg {
+		margin-left:0px;
+		margin-bottom: 26px;
+		margin-right: 0px;
+		height: 40px;
+		width: 40px;
+	}
+	.dashbord {
+		width: 27%;
+	}
+	p.text-center.text-size{
+		font-size: .6rem;
+	}
+
+	span.serviceType{
+		font-size: .7rem;
+	}
+	.dashbord:after {
+		width: 15px;
+		height: 15px;
+		margin-top: -8px;
+	}
+
+	.rgwizard {
+		right: -1em;
+	}
+	.rgwizard-step.rg-adjust {
+		right: -2em;
+	}
+
+	.fas.fa-check {
+		left: -9%;
+		padding: 6px;
+		font-size: 16px;
+	}
+
+	img.img-thumbnail.standard-bike-img{
+		height: 75px;
+		width: 86px;
+	}
+
+	p.looking-text {
+		color: #FFF;
+	}
+	p.service-pkg-text{
+		color: #FFF;
+	}
+	.copy-right {
+		font-size: .6rem;
+	}
+}
+
+@media only screen and (max-width: 731px) and (orientation: landscape) {
+	h2.header2-text.text-center {
+		font-size: 1.8rem;
+	}
+	h1.header1-text{
+			font-size: 3rem;
+	}
+
+	#parallelogram {
+		width: 282px;
+		height: 26px;
+		margin-left: 10%;
+	}
+	#parallelogram .para-landing-page {
+		font-size: 1rem;
+	}
+
+	#scnd-parallelogram {
+		position: absolute;
+		width: 175px;
+		height: 35px;
+		margin-left: 45.3%;
+		margin-top: -30px;
+	}
+
+	#scnd-parallelogram .scnd-para-text {
+		font-size: 1.2rem;
+	}
+	.img-icon-rg {
+		margin-left: 25px;
+		margin-bottom: 26px;
+		margin-right: 30px;
+		width: 60px;
+		height: 50px;
+	}
+	.dashbord {
+		width: 29%;
+	}
+
+	p.text-center.text-size {
+		 font-size: .8rem;
+	}
+
+	.dashbord:after {
+		width: 20px;
+		height: 20px;
+		margin-top: -10px;
+	}
+
+	span.serviceType{
+		font-size: .9rem;
+	}
+
+	.rgwizard {
+		right: -2.2em;
+	}
+
+	.rgwizard-step.rg-adjust{
+		    right: -2em;
+	}
+
+	.fas.fa-check {
+		left: -6%;
+		padding: 8px;
+		font-size: 18px;
+	}
+
+	img.img-thumbnail.standard-bike-img{
+		height: 100px;
+		width: 120px;
+	}
+
+	p.looking-text {
+		color: #FFF;
+	}
+	p.service-pkg-text{
+		color: #FFF;
+	}
+	.copy-right {
+		font-size: .6rem;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+	h2.header2-text.text-center {
+		font-size: 1.2rem !important;
+	}
+
+	h1.header1-text {
+		font-size: 2rem !important;
+	}
+
+
+	#parallelogram {
+		width: 175px !important;
+		height: 16px !important;
+		margin-left: 0% !important;
+	}
+	#parallelogram .para-landing-page {
+		font-size: 0.6rem !important;
+	}
+
+	#scnd-parallelogram {
+		width: 115px !important;
+		height: 26px !important;
+		margin-left: 54.3% !important;
+		margin-top: -22px !important;
+	}
+
+	#scnd-parallelogram .scnd-para-text {
+		font-size: .8rem !important;
+	}
+
+	.dashbord {
+		width: 25%;
+		margin-left: 1em;
+	}
+
+	p.text-center.text-size {
+		font-size: .4rem !important;
+	}
+
+	p.para-text-land {
+		font-size: 8px;
+	}
+	.rgwizard {
+		right: 0em;
+	}
+
+	span.serviceType {
+		font-size: 0.4rem !important;
+	}
+
+	.fas.fa-check {
+		left: -9%;
+		padding: 6px;
+		font-size: 12px;
+	}
+
+	img.img-thumbnail.standard-bike-img {
+		height: 54px;
+		width: 80px;
+	}
+
+	.form-control{
+		font-size: .8rem;
+	}
+}
+
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+	#scnd-parallelogram {
+		width: 152px !important;
+		height: 30px !important;
+		margin-left: 54.3% !important;
+		margin-top: -24px !important;
+	}
+
+	.img-icon-rg {
+		margin-left: 10px;
+		margin-bottom: 26px;
+		margin-right: 6px;
+		width: 60px;
+		height: 60px;
+	}
+
+	.rgwizard-step.rg-adjust {
+		right: -3em !important;
+	}
+
+	.fas.fa-check {
+		padding: 7px !important;
+		font-size: 18px !important;
+	}
+
+	img.img-thumbnail.standard-bike-img {
+		height: 120px !important;
+	}
+}
+
+/*@media only screen and (max-width: 375px) {*/
+/* iPhone 6, 7, 8 ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+	#parallelogram {
+		/*width: 195px !important;
+		height: 18px !important;
+		margin-left: 9% !important;*/
+		width: 176px;
+		height: 18px;
+		margin-left: 7%;
+	}
+	/*#scnd-parallelogram {
+		margin-left: 55.3% !important;
+	}*/
+
+	#scnd-parallelogram {
+		width: 145px;
+		height: 30px ;
+		margin-left: 53.3%;
+		margin-top: -26px;
+	}
+
+	#scnd-parallelogram .scnd-para-text {
+		font-size: 1rem;
+	}
+
+	.rgwizard-step.rg-adjust {
+		right: -2em !important;
+	}
+
+
+	.dashbord {
+		width: 26%;
+	}
+	p.text-center.text-size {
+		font-size: .5rem;
+	}
+	span.serviceType {
+		font-size: .6rem;
+	}
+
+	.fas.fa-check {
+		left: -9% !important;
+		padding: 6px !important;
+		font-size: 12px !important;
+	}
+
+	.form-control{
+		font-size: .9rem;
+	}
+
+	img.img-thumbnail.standard-bike-img {
+		height: 65px !important;
+		width: 80px !important;
+	}
+
+}
+
+/*@media only screen and (max-width: 667px) and (orientation: landscape) {*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+	#parallelogram {
+		width: 285px !important;
+		height: 24px !important;
+		margin-left: 4% !important;
+	}
+
+	#parallelogram .para-landing-page {
+		font-size: 1rem !important;
+	}
+
+	#scnd-parallelogram {
+		width: 175px !important;
+		height: 36px !important;
+		margin-left: 45.3% !important;
+		margin-top: -29px !important;
+	}
+
+	#scnd-parallelogram .scnd-para-text {
+		font-size: 1.2rem !important;
+	}
+}
+
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px){
+
+	h2.header2-text.text-center {
+		font-size: 1.5rem !important;
+	}
+
+	h1.header1-text {
+		font-size: 3rem;
+	}
+
+	#parallelogram {
+		width: 205px;
+		height: 18px;
+		margin-left: 4%;
+	}
+
+	#parallelogram .para-landing-page {
+		font-size: 0.7rem;
+	}
+
+	#scnd-parallelogram {
+		width: 140px;
+		height: 30px;
+		margin-left: 52.3%;
+		margin-top: -25px;
+	}
+	#scnd-parallelogram .scnd-para-text {
+		font-size: 1rem;
+	}
+
+	.img-icon-rg {
+		margin-left: 16px;
+		margin-bottom: 26px;
+		margin-right: 0px;
+		width: 40px;
+		height: 40px;
+	}
+
+	p.para-text-land {
+		font-size: 10px;
+	}
+
+	p.text-center.text-size {
+		font-size: 8px;
+	}
+
+	.dashbord {
+    width: 26%;
+	}
+
+	.dashbord:after {
+		width: 15px;
+		height: 15px;
+		margin-top: -8px;
+	}
+
+	.rgwizard {
+		right: 0em;
+	}
+	.rgwizard-step.rg-adjust{
+		right: -2em;
+	}
+
+	span.serviceType {
+		font-size: 10px;
+	}
+
+	.fas.fa-check {
+		top: -7%;
+		left: -6%;
+		padding: 6px;
+		font-size: 16px;
+	}
+
+	img.img-thumbnail.standard-bike-img {
+		height: 85px;
+		width: 85px;
+	}
+
+	.form-control{
+		font-size: .9rem;
+	}
+
+	p.looking-text {
+		color: #FFF;
+	}
+	p.service-pkg-text{
+		color: #FFF;
+	}
+	.copy-right {
+		font-size: .6rem;
+	}
+
+}
+
+
+/*@media only screen and (max-width: 736px) and (orientation: landscape) {*/
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+
+	h2.header2-text.text-center {
+		font-size: 1.8rem;
+	}
+
+	h1.header1-text {
+		font-size: 3.5rem;
+	}
+
+	#parallelogram {
+		width: 340px;
+		height: 28px;
+		margin-left: -1%;
+	}
+
+	#parallelogram .para-landing-page {
+		font-size: 1.2rem;
+	}
+
+	#scnd-parallelogram {
+		width: 205px;
+		height: 40px;
+		margin-left: 45.3%;
+		margin-top: -35px;
+	}
+	#scnd-parallelogram .scnd-para-text {
+		font-size: 1.5rem;
+	}
+	.img-icon-rg {
+		margin-left: 25px;
+		margin-bottom: 26px;
+		margin-right: 25px;
+		height: 60px;
+		width: 60px;
+	}
+
+	.dashbord {
+		width: 29%;
+	}
+
+	p.text-center.text-size{
+		font-size: .7rem;
+	}
+
+	.dashbord:after {
+		width: 20px;
+		height: 20px;
+		margin-top: -10px;
+	}
+
+	.rgwizard {
+		right: -2em;
+	}
+
+	.rgwizard-step.rg-adjust{
+		right: -2em;
+	}
+
+	span.serviceType {
+		font-size: 1rem;
+	}
+
+	.fas.fa-check {
+		left: -6%;
+		padding: 8px;
+		font-size: 18px;
+	}
+
+	img.img-thumbnail.standard-bike-img {
+		height: 110px;
+		width: 100px;
+	}
+
+	p.looking-text {
+		color: #FFF;
+	}
+	p.service-pkg-text{
+		color: #FFF;
+	}
+	.copy-right {
+		font-size: .9rem;
+	}
+
+}
+
+/*@media only screen and (max-width: 812px) and (orientation: landscape) {
+
+	h2.header2-text.text-center {
+		font-size: 2rem;
+	}
+
+	h1.header1-text {
+		font-size: 3.5rem;
+	}
+
+	#parallelogram {
+		width: 280px;
+		height: 26px;
+		margin-left: 16%;
+	}
+
+	#parallelogram .para-landing-page {
+		font-size: 1rem;
+	}
+
+	#scnd-parallelogram {
+		width: 205px;
+		height: 38px;
+		margin-left: 48.2%;
+		margin-top: -34px;
+	}
+	#scnd-parallelogram .scnd-para-text {
+		font-size: 1.5rem;
+	}
+
+	.img-icon-rg {
+		margin-left: 10px;
+		margin-bottom: 26px;
+		margin-right: 6px;
+		width: 60px;
+		height: 60px;
+	}
+
+	.dashbord:after {
+		width: 20px;
+		height: 20px;
+		margin-top: -10px;
+	}
+
+	.rgwizard {
+		right: -2em;
+	}
+
+	.rgwizard-step.rg-adjust{
+		right: -3em;
+	}
+
+	.fas.fa-check {
+		top: -7%;
+		left: -6%;
+		padding: 13px;
+		font-size: 24px;
+	}
+
+	img.img-thumbnail.standard-bike-img {
+		height: 150px;
+	}
+
+	.copy-right {
+		font-size: .9rem;
+	}
+}*/
+
+/*@media only screen and (max-width: 768px) {*/
+
+	/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+	h2.header2-text.text-center	 {
+		font-size: 2.8rem;
+	}
+
+	.img-icon-rg {
+		margin-left: 20px;
+		margin-bottom: 26px;
+		margin-right: 20px;
+	}
+	#parallelogram {
+		width: 340px;
+		height: 30px;
+		margin-left: 10%;
+	}
+
+	#parallelogram .para-landing-page {
+		font-size: 1.2rem;
+	}
+	#scnd-parallelogram {
+		width: 205px;
+		height: 44px;
+		margin-left: 53.3%;
+		margin-top: -35px;
+	}
+
+	.rgwizard-step.rg-adjust{
+		    right: -3em;
+	}
+
+	img.img-thumbnail.standard-bike-img {
+		height: 160px;
+	}
+
+	.dashbord:after {
+		width: 25px;
+		height: 25px;
+		margin-top: -12px;
+	}
+
+	.fas.fa-check {
+			left: -5%;
+			padding: 10px;
+			font-size: 24px;
+	}
+
+
+}
+
+
+/*@media only screen and (max-width: 1024px) and (orientation: landscape) {*/
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	h2.header2-text.text-center{
+		font-size: 2.8rem;
+	}
+
+	#parallelogram {
+		width: 340px ! important;
+		height: 30px ! important;
+		margin-left: 19% ! important;
+	}
+
+	#parallelogram .para-landing-page {
+		font-size: 1.2rem;
+	}
+
+	#scnd-parallelogram {
+		width: 205px;
+		height: 44px;
+		margin-left: 52.3%;
+		margin-top: -38px;
+	}
+
+	#scnd-parallelogram .scnd-para-text {
+		font-size: 1.5rem;
+	}
+
+	img.img-thumbnail.standard-bike-img {
+		height: 170px;
+	}
+}
+
+/*@media only screen and (max-width: 1024px) {*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+	h2.header2-text.text-center {
+		font-size: 2.8rem;
+	}
+
+	#parallelogram {
+		position: relative;
+		width: 340px;
+		height: 36px;
+		transform: skew(-20deg);
+		background: #FBAF1A;
+		margin-left: 23%;
+	}
+
+	#parallelogram .para-landing-page {
+		font-size: 1.2rem;
+	}
+
+	#scnd-parallelogram {
+    width: 205px;
+    height: 44px;
+    margin-left: 54.3%;
+    margin-top: -41px;
+}
 }
