@@ -376,9 +376,6 @@ button.royal-standard.active span.servicePrice{ color : #FFF;}
   #services .box{
     padding: 0px;
   }
-  #services .box p {
-    padding-bottom: 10px;
-  }
 }
 /*----------Testimonial---------*/
 #Testimonial{
